@@ -1,0 +1,15 @@
+- name: Checking the Filters
+  hosts: local
+  become: yes
+  vars:
+    NAME: "peddireddy"
+  tasks:
+  - name: Checking The filters
+    debug:
+      msg: "My Name in Upper {{NAME | Upper}}"
+  - name: Checking The filters
+    debug:
+      msg: "My Name in Upper {{NAME | Lower}}"
+  - name: Checking The filters
+    debug:
+      msg: "My Name in Upper {{ Course | default('DevOps')}}"

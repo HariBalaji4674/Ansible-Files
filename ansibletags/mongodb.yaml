@@ -7,7 +7,7 @@
       name: nginx
       state: installed
     tags:
-    - installation
+    - install
   - name: Starting the services
     service:
       name: nginx
