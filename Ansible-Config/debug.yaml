@@ -1,5 +1,5 @@
 - name: Testing the debug message 
-  hosts: centos
+  hosts: all
   become: yes
   tasks:
   - name: testing the remote user checking
