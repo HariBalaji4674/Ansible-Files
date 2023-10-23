@@ -5,4 +5,3 @@
   - name: testing the remote user checking
     debug:
       msg: "Checking the remote user"
-    shell: echo "hello world message to the user"  >> /home/text.txt
