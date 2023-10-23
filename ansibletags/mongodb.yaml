@@ -27,7 +27,7 @@
     tags:
     - stop
   - name: uninstalling the nginx service
-    service:
+    yum:
       name: nginx
       state: absent
     tags:
