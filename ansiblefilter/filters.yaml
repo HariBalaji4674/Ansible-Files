@@ -6,10 +6,10 @@
   tasks:
   - name: Checking The filters
     debug:
-      msg: "My Name in Upper {{NAME | Upper}}"
+      msg: "My Name in Upper {{NAME | upper}}"
   - name: Checking The filters
     debug:
-      msg: "My Name in Upper {{NAME | Lower}}"
+      msg: "My Name in Upper {{NAME | lower}}"
   - name: Checking The filters
     debug:
       msg: "My Name in Upper {{ Course | default('DevOps')}}"
