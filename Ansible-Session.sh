@@ -24,3 +24,23 @@ Ansible Configuration File:
     3) home directory .cfg extension
     4) /etc/ansible/ansible.config
 
+Ansible Multiple Emvironments:
+------------------------------
+DEV and PROD
+
+Configuration:
+    os and os versions
+    packages and packages versions
+    directories
+    persmissions
+    services and services status
+
+Differences between is:
+Ip address
+passwords
+
+How to Manage Both environments
+
+By having different inventory
+Password are stored in Secrets /
+Pass form Command line 
