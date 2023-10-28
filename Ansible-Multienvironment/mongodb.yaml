@@ -1,5 +1,5 @@
 - name: isntalling mongodb setup
-  hosts: dev
+  hosts: mongodb
   become: yes
   roles:
   - mongodb
