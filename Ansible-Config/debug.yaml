@@ -5,3 +5,5 @@
   - name: Just print the message on screen
     debug:
       msg: "Printing The message of command"
+  - name: Create a Folder in node1
+    shell: echo "Peddireddy Hari Vardhan Reddy" > /home/centos/hello.txt
