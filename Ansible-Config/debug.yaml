@@ -1,17 +1,7 @@
-- name: Testing the debug message 
-  hosts: all
+- name: Just Chacking the messages is printing for not
+  hosts: centos2
   become: yes
   tasks:
-  - name: testing the remote user checking
+  - name: Just print the message on screen
     debug:
-      msg: "Checking the remote user"
-  - name:  Checking the messgae and file is created 
-    shell: echo "Hello World from ansible server" >> hello.txt
-  - name: To DownLoad the nginx server
-    yum:
-      name: nginx
-      state: installed
-  - name: Check The status of nginx
-    service:
-      name: nginx
-      state: started
+      msg: "Printing The message of command"

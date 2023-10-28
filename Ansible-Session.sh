@@ -1,5 +1,6 @@
-# Topics discussed:
-    Ansible configuration
+# Ansible-Session-23  # Topics discussed:
+--------------------
+02:00 -- Ansible configuration
     Multiple environments
     Tags
     Parellelism
@@ -15,4 +16,11 @@
     how many servers can absible connect at a time is called the parallelism
 
 3) Ansible Heterogeneous and gathering Facts?
-     
+
+Ansible Configuration File:
+    we can keep thses ansible.config in 4 places
+    1) environment variable checking
+    2) current working directly
+    3) home directory .cfg extension
+    4) /etc/ansible/ansible.config
+
