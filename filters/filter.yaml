@@ -12,4 +12,4 @@
       msg: "{{name | lower}}"
   - name: printing filters2
     debug:
-      msg: "{{NAME| default("DevOps")}}"
+      msg: "{{NAME | default('DevOps')}}"
