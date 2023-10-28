@@ -25,10 +25,7 @@ Ansible Configuration File:
     3) home directory .cfg extension
     4) /etc/ansible/ansible.config
 
-Ansible Multiple Emvironments:
-------------------------------
-DEV and PROD
-
+Ansible Multiple Emvironments: DEV and PROD
 Configuration:
     os and os versions
     packages and packages versions
@@ -49,3 +46,6 @@ Differences between is:
 Ansible Tags:
     Tags are the special kkind of keyword which can be used run or skips the particukar or any number of tasks by providing the matching tags you pass over the command line .
 
+Ansible Functions /Filters:
+    To manipulate the data 
+    Filters can help you manage missing or undefined variables by providing defaults or making some variables optional
