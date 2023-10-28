@@ -3,17 +3,18 @@
 02:00 -- Ansible configuration
 22:00 -- Multiple environments
 40:00 --  Tags
-    Parellelism
-    Heterogenous and gather facts
-    Function/Fileters
+50:00 --  Parellelism
+1hr:01min:00ss -- Heterogenous and gather facts
+Function/Fileters
     
 What is ansible.cfg?/ Configuration /
     
     cd /etc/ansible/ --> folder where all ansible related configurations are stored 
 
 Ansible Parallelism ?
-
-    how many servers can absible connect at a time is called the parallelism
+    Ansible can connect any number of servers
+    But it should have better computing resources
+    like OS,RAM,CPU,etcc..
 
 Ansible Heterogeneous and gathering Facts?
 
@@ -47,3 +48,4 @@ Differences between is:
 
 Ansible Tags:
     Tags are the special kkind of keyword which can be used run or skips the particukar or any number of tasks by providing the matching tags you pass over the command line .
+
