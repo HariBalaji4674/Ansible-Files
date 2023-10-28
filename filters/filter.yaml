@@ -1,0 +1,9 @@
+- name: Starting the nginx
+ hosts: localhost
+ become: yes
+ vars:
+   name: peddireddy
+ tasks:
+ - name: printing filters
+   debug:
+     msg: "{{name | upper}}"
