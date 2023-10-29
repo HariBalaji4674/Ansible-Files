@@ -1,3 +1,12 @@
+Session -- 17 
+00:00 -- Creation of EC2 Server using Shell Scripting
+48:00 -- Ansible Introduction
+58:00 -- Pull vs Push Mechanism
+01:09:00 -- Ansible Installation 
+
+
+
+
 # Ansible-Session-23  # Topics discussed:
 --------------------
 02:00 -- Ansible configuration
@@ -7,45 +16,3 @@
 1hr:01min:00ss -- Heterogenous and gather facts
 Function/Fileters
     
-What is ansible.cfg?/ Configuration /
-    
-    cd /etc/ansible/ --> folder where all ansible related configurations are stored 
-
-Ansible Parallelism ?
-    Ansible can connect any number of servers
-    But it should have better computing resources
-    like OS,RAM,CPU,etcc..
-
-Ansible Heterogeneous and gathering Facts?
-
-Ansible Configuration File:
-    we can keep thses ansible.config in 4 places
-    1) environment variable checking
-    2) current working directly
-    3) home directory .cfg extension
-    4) /etc/ansible/ansible.config
-
-Ansible Multiple Emvironments: DEV and PROD
-Configuration:
-    os and os versions
-    packages and packages versions
-    directories
-    persmissions
-    services and services status
-
-Differences between is:
-    Ip address
-    passwords
-
-    How to Manage Both environments
-
-    By having different inventory
-    Password are stored in Secrets /
-    Pass form Command line 
-
-Ansible Tags:
-    Tags are the special kkind of keyword which can be used run or skips the particukar or any number of tasks by providing the matching tags you pass over the command line .
-
-Ansible Functions /Filters:
-    To manipulate the data 
-    Filters can help you manage missing or undefined variables by providing defaults or making some variables optional
