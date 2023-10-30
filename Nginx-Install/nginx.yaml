@@ -1,5 +1,5 @@
 - name: Installing nginx with ansible 
-  hosts: localhosts
+  hosts: localhost
   become: yes
   tasks:
   - name: Nginx Module
