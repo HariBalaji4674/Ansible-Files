@@ -1,8 +1,13 @@
-Session -- 17 
+# Session -- 17 : Topics Discussed
+--------------------------
 00:00 -- Creation of EC2 Server using Shell Scripting
 48:00 -- Ansible Introduction
 58:00 -- Pull vs Push Mechanism
 01:09:00 -- Ansible Installation 
+
+
+# Session -- 18 : Topics Discussed
+----------------------------------
 
 
 

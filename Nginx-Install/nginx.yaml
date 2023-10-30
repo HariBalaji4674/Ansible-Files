@@ -1,0 +1,8 @@
+- name: Installing nginx with ansible 
+  hosts: localhosts
+  become: yes
+  tasks:
+  - name: Nginx Module
+    yum:
+      name: nginx
+      state: installed

@@ -1,0 +1,6 @@
+- name: Testing the ping command
+  hosts: localhosts
+  become: yes
+  tasks:
+  - name: Testing the Services
+    command: ping 54.221.109.75
