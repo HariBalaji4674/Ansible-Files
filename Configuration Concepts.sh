@@ -84,7 +84,9 @@ Better Naming Convention To Create Inventory Files:
 
 ansible -i inventory all -m ping -u centos --ask-pass
 
-Install the nginx in Node 1:
+Ansible Playbooks:
+    lists of tasks that automatically execute for your specified inventory or groups of hosts.
+
 
 
 
