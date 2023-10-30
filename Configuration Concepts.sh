@@ -88,9 +88,17 @@ Ansible Playbooks:
     lists of tasks that automatically execute for your specified inventory or groups of hosts.
 
 
+Scripting Concepts:
+-------------------
+Variables
+Data-Types
+Conditions
+Loops
+Functions
+Re-Uses --> Dont write again and again
 
-
-
+Variables:
+----------
 
 
 

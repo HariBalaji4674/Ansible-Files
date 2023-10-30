@@ -8,8 +8,9 @@
 
 # Session -- 18 : Topics Discussed
 ----------------------------------
-
-
+12:00 -- About Inventory
+39:00 -- About Yaml,Json,XML
+01:00 -- About Playbook
 
 
 # Ansible-Session-23  # Topics discussed:
