@@ -8,5 +8,5 @@
   tasks:
   - name: Checking the Playlevel vars
     debug:
-      msg: "My Name is {name},I am Learning 
-    {course},Started Year is {year}"
+      msg: "My Name is {{name}},I am Learning 
+    {{course}},Started Year is {{year}}"
