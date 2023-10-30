@@ -3,4 +3,4 @@
   become: yes
   tasks:
   - name: Testing the Services
-    command: ping 54.221.109.75
+    ping: 54.221.109.75

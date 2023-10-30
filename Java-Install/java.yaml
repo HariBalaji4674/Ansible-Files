@@ -10,3 +10,7 @@
     debug:
       msg: "My Name is {{Name}},I am Learning 
     {{course}},Started Year is {{year}}"
+  - name: Installing Java In Local host
+    dnf:
+      name: java-1.8.0-openjdk-devel
+      state: installed

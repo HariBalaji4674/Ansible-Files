@@ -10,7 +10,11 @@
 ----------------------------------
 12:00 -- About Inventory
 39:00 -- About Yaml,Json,XML
-01:00 -- About Playbook
+01:00:00 -- About Playbook
+01:14:00 -- About Variables
+
+# Session -- 19 : Topics Discussed
+----------------------------------
 
 
 # Ansible-Session-23  # Topics discussed:
