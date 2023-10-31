@@ -18,3 +18,20 @@
     get_url:
       url: http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
       dest: /etc/yum.repos.d/jenkins.repo
+  - name: Copying jenkins.repo 
+    copy:
+      src: jenkins.repo
+      dest: /etc/yum.repos.d/jenkins.repo
+  - name: Import a key from a url
+    rpm_key:
+      state: present
+      key: https://pkg.jenkins.io/redhat/jenkins.io.key
+  - name: Install Jenkins 
+    dnf:
+      name: jenkins
+      state: installed
+  - name: Start the jenkins service
+    service:
+      name: jenkins
+      state: started
+      enabled: yes
