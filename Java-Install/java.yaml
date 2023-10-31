@@ -1,5 +1,5 @@
 - name: Checking the play level Varaibels
-  hosts: local
+  hosts: localhost
   become: yes
   vars:
     Name: "Peddireddy"
