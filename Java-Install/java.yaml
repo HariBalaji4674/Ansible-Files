@@ -27,7 +27,7 @@
       state: present
       key: https://pkg.jenkins.io/redhat/jenkins.io.key
   - name: Install Jenkins 
-    yum:
+    y:
       name: jenkins
       state: installed
   - name: Start the jenkins service
